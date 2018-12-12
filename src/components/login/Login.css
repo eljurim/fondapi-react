@@ -1,0 +1,45 @@
+body {
+    background: peru;
+}
+.App-Register{
+    margin: auto;
+
+
+    width: 50%;
+    align-items: center;
+    justify-content:center;
+}
+h1{
+    text-align: center;
+    width: 100%;
+}
+form{
+    text-align: center;
+    flex-wrap: wrap;
+}
+input{
+    
+    border:none;
+    box-sizing: border-box;
+    margin: auto;
+    display: block;
+    width:300px;
+    padding: 10px;
+    margin-top: 5px;
+}
+button{
+    box-sizing: border-box;
+
+    width: 300px;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    background-color: rgb(43, 161, 49);
+    border: none;
+    padding: 10px 10px;
+    color:white;
+}
+
+.input-errors{
+    outline: 5px solid red;
+}
